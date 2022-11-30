@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Arman from './Arman';
 function App() {
+
+  const onSubmit = () => {
+    alert("hello this is Arman here !")
+  }
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <h1>Arman Asgar  Dasdddddilkush Saquib Lakhan</h1>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <button className='btn'
+          onClick={onSubmit}>here</button>
+
       </header>
+      <Arman />
+
     </div>
   );
 }
